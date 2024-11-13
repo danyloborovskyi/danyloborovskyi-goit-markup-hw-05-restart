@@ -363,10 +363,12 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .employee-social-media-icon {
     fill: #AFB1B8;
+    transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .employee-social-media-link:hover,
@@ -402,10 +404,12 @@ header {
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .clients-icon {
     fill: #AFB1B8;
+    transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .clients-link:hover,
@@ -447,6 +451,7 @@ footer .logo-link {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .contacts-link-footer.location {
@@ -485,6 +490,7 @@ footer .logo-link {
     align-items: center;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;;
 }
     
 .footer-social-media-icon {
@@ -524,6 +530,7 @@ footer .logo-link {
     border-radius: 4px;
     background-color: #F5F4FA;
     color: var(--main-color);
+    transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms, background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .portfolio-filter-button:hover,
@@ -543,7 +550,7 @@ footer .logo-link {
 .portfolio-link {
     display: flex;
     flex-direction: column;
-    /* position: relative; */
+    transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .portfolio-link:hover ,
@@ -592,6 +599,15 @@ footer .logo-link {
     color: white;
     top: 0;
     transform: translateY(100%);
+    transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.556;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-link:hover .portfolio-project-description,
